@@ -95,16 +95,18 @@ h3.head-video {
   .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: flex-start;
   }
 
   .small-6 {
     width: 48%;
-    margin: 1%;
+    margin: 0 1% 20px;
+    box-sizing: border-box;
   }
 
   video {
-    max-width: 100%;
+    width: 100%;
     height: auto;
   }
 }
