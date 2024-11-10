@@ -72,7 +72,7 @@ h3.head-video {
   font-weight: bold;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .row {
     display: flex;
     flex-direction: column;
@@ -81,12 +81,12 @@ h3.head-video {
 
   .small-6 {
     width: 100%;
-    max-width: 540px;
+    max-width: 550px;
     margin: 0.5rem 0;
   }
 
   video {
     width: 100%;
-    max-width: 540px;
+    max-width: 550px;
   }
 }
