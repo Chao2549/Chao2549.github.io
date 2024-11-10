@@ -72,26 +72,21 @@ h3.head-video {
   font-weight: bold;
 }
 
-.work-last {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* จัดให้อยู่กึ่งกลางตามแนวนอน */
-  justify-content: center; /* จัดให้อยู่กึ่งกลางตามแนวตั้งในกรณีที่มีการเปลี่ยนขนาดหน้าจอ */
-  text-align: center; /* จัดข้อความให้กึ่งกลาง */
-  margin-bottom: 20px;
-}
+@media (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-h3.head-video-last {
-  font-size: 1.5rem;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-align: center;
-}
+  .small-6 {
+    width: 100%;
+    max-width: 540px;
+    margin: 0.5rem 0;
+  }
 
-/* เพิ่มการตั้งค่ากับ <video> ให้ตรงกลาง */
-.work video {
-  display: block;
-  margin: 0 auto; /* จัดกึ่งกลางแนวนอน */
+  video {
+    width: 100%;
+    max-width: 540px;
+  }
 }
