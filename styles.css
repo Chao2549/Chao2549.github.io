@@ -1,0 +1,97 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+} 
+
+p.bio {
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+hr {
+  width: 500px;
+  height: 2px;
+  background-color: #2199e8;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  } 
+
+img.logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
+}
+
+h1.title {
+  text-transform: uppercase;
+  font-size: 4.0rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2.title {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h5.mini-title {
+  text-transform: uppercase;
+  font-size: 2.0rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h5 {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+} 
+
+.work {
+  margin-bottom: 20px;
+}
+
+h3.head-video {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.work-last {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* จัดให้อยู่กึ่งกลางตามแนวนอน */
+  justify-content: center; /* จัดให้อยู่กึ่งกลางตามแนวตั้งในกรณีที่มีการเปลี่ยนขนาดหน้าจอ */
+  text-align: center; /* จัดข้อความให้กึ่งกลาง */
+  margin-bottom: 20px;
+}
+
+h3.head-video-last {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* เพิ่มการตั้งค่ากับ <video> ให้ตรงกลาง */
+.work video {
+  display: block;
+  margin: 0 auto; /* จัดกึ่งกลางแนวนอน */
+}
