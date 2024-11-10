@@ -72,7 +72,7 @@ h3.head-video {
   font-weight: bold;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .row {
     display: flex;
     flex-direction: column;
@@ -81,12 +81,30 @@ h3.head-video {
 
   .small-6 {
     width: 100%;
-    max-width: 550px;
+    max-width: 540px;
     margin: 0.5rem 0;
   }
 
   video {
     width: 100%;
-    max-width: 550px;
+    max-width: 540px;
+  }
+}
+
+@media (max-width: 1024px) and (orientation: landscape) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .small-6 {
+    width: 48%;
+    margin: 1%;
+  }
+
+  video {
+    max-width: 100%;
+    height: auto;
   }
 }
